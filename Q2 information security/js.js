@@ -7,7 +7,7 @@
        if(enter_pass != pass || enter_pass.length != '5'){
         alert('Password is Wrong try again');
         var enter_pass = document.getElementById('password').value = '';
-        window.open('index.html');
+        window.location ='index.html';
         break;
        }
        else if(enter_pass == pass ){
